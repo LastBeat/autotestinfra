@@ -9,8 +9,5 @@ public class Main {
             else
                 System.out.println("a+" + i + " is " + (a+i));
         }
-
-        System.out.println("END.");
-
     }
 }
