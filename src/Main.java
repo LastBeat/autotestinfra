@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int a = 0;
 
-        for(int i = a; i < 100; i++){
+        for(int i = a; i < 10; i++){
             if(i == 0)
                 LOG.info(i + " is default a value");
 
