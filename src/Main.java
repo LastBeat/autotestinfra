@@ -1,11 +1,11 @@
 import java.util.logging.Logger;
 
 public class Main {
-    private final static Logger LOG = Logger.getGlobal();
+    private static final Logger LOG = Logger.getGlobal();
     public static void main(String[] args) {
         int a = 0;
 
-        for(int i = a; i < 100; i++){
+        for(int i = a; i < 10; i++){
             if(i == 0)
                 LOG.info(i + " is default a value");
 
