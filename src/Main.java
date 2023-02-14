@@ -3,9 +3,9 @@ import java.util.logging.Logger;
 public class Main {
     private static final Logger LOG = Logger.getGlobal();
     public static void main(String[] args) {
-        int a = 0;
+        int a = 1;
 
-        for(int i = a; i < 10; i++){
+        for(int i = a; i < 1000; i++){
             if(i == 0)
                 LOG.info(i + " is default a value");
 
